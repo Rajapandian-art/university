@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>college website</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Merienda:wght@300..900&family=Poppins:ital,
+wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,
+900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="logo">
+                <img src="images/cap.png">
+            </div>
+            <h2>WB University</h2>
+            <div class="nav-link" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index1.html">ABOUT</a></li>
+                    <li><a href="index2.html">COURSE</a></li>
+                    <li><a href="index3.html">BLOG</a></li>
+                    <li><a href="index4.html">CANTACT</a></li>
+                   </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+     </section>
+    <!----------------about us content--------------------------->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the World's Largest University</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error dicta ratione amet voluptatum et expedita,
+                   autem nemo, mollitia veniam officiis sint repudiandae vitae maxime.
+                   Asperiores neque quasi blanditiis iure explicabo?Lorem ipsum dolor 
+                   sit amet consectetur adipisicing elit. Similique quo molestias voluptatum
+                   consectetur quidem culpa sit architecto laboriosam libero magnam asperiores ipsa,
+                   nemo veniam voluptates, illum cumque! Totam, expedita ratione?</p>
+                   <a href="" class="ctn-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col"> 
+             <img src="images/planning.png">
+            </div>
+        </div>
+        </section>
+    <!------------------------footer----------------------------------------->
+    <div class="footer">
+        <div class="container">
+          <div class="row">
+       
+             <div class="footer-col-1">
+                 <h3><img src="images/cap.png" width="50px" height="50p">WB University</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit<br>
+                    quisquam quos nobis enim fugit modi error fuga harum <br>
+                    Pariatur rerum aliquam ullam.
+                 </p>
+             
+            </div>
+             <div class="footer-col-2">
+                 <h3>Useful Links</h3>
+                 <a href="">Home</a><br> 
+                 <a href="">About</a><br>
+                 <a href="">course</a><br>
+                 <a href="">blog</a><br>
+                 <a href="">contact</a>
+                
+             </div>
+             <div class="footer-col-3">
+              <h3>Contact Us</h3>
+              <i class="fa fa-home"></i>
+              <p>abcfg Road,refks Buliding<br>Bangalore,Karnataka</p>
+              <i class="fa fa-phone"></i>
+              <p>+91 6786389229</p>
+              <i class="fa fa-envelope"></i>
+              <p>sdsssj@gmail.com</p>
+             
+            </div>
+             <div class="footer-col-4">
+                 <h3>Follow us</h3>
+                 
+                     <i class="fa fa-facebook"></i>
+                     <i class="fa fa-instagram"></i>
+                     <i class="fa fa-linkedin"></i>
+                     <i class="fa fa-youtube"></i>
+                    
+             </div>
+          </div>
+           <hr><p class="copyright" >Copyright@2024</p>
+         </div>
+     </div>
+ 
+ 
+ <!----------javascript----------------------->
+<script>
+    var navlinks=document.getElementById("navlinks")
+    function showmenu()
+    {
+        navlinks.style.right="0"
+    }
+    function hidemenu()
+    {
+        navlinks.style.right="-200px"
+    }
+    </script>
+
+    
+</body>
+</html>
